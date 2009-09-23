@@ -1,0 +1,22 @@
+{% extends "base.html" %}
+
+{% block content %}
+	<form action="/tasks/new/" method="post">
+		<p>
+			Task: <input type="text" name="body" />
+		</p>
+
+		<p>
+			Description (not required):<br />
+			<textarea name="description"></textarea>
+		</p>
+
+		<p>
+			<input type="submit" value="Save" />
+		</p>
+	</form>
+
+	{% for task in tasks %}
+		{{ task.body }}
+	{% endfor %}
+{% endblock %}
