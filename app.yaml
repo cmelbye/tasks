@@ -7,5 +7,8 @@ handlers:
 - url: /static
   static_dir: static
 
+- url: /cron/.*
+  script: backend.py
+
 - url: /.*
   script: main.py

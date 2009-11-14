@@ -1,49 +1,36 @@
-.user {
+div.user {
 	text-align: right;
-	margin-top: 10px;
+	margin-bottom: 20px;
 }
 
-.question {
-	font-weight: bold;
-	font-size: 16pt;
-	margin-bottom: 5px;
-	margin-top: 10px;
-}
-
-#update_body {
-	font-size: 12pt;
-	font-family: Helvetica, Arial, sans-serif;
-	height: 54px;
-	width: 460px;
-	padding: 2px;
-	margin: 0 0 0 10px;
-	resize: none;
-}
-
-.update_tools {
-	text-align: center;
-}
-
-.update_tools #character_count {
-	font-weight: bold;
-	font-size: 14pt;
-	color: #000;
-}
-
-.content {
+.main {
 	margin-top: 20px;
 }
 
-.update {
-	padding-bottom: 10px;
+input#body {
+	width: 390px;
+}
+
+textarea#description {
+	height: 55px;
+}
+
+.task {
 	margin-bottom: 10px;
 }
 
-.update .body {
-	font-size: 11pt;
+.task .body {
+	font-size: 14pt;
 }
 
-.update .info {
-	font-size: 9pt;
-	color: #707070;
+#more_options {
+	display: none;
+}
+
+.task_submit {
+	text-align: right;
+}
+
+.task_submit input {
+	margin-left: 20px;
 }
